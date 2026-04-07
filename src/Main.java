@@ -161,7 +161,7 @@ public class Main {
             String newContactNumber = scanner.next();
 
             String sql = "UPDATE reservations SET" +
-                    " guest_name = '" + newGuestName + "', " +
+                    "2 guest_name = '" + newGuestName + "', " +
                     "room_number = " + newRoomNumber + ", " +
                     "contact_number = '" + newContactNumber + "' " +
                     "WHERE reservation_id = " + reservationId;
@@ -231,6 +231,6 @@ public class Main {
             i--;
         }
         System.out.println();
-        System.out.println("ThankYou For Using Hotel Reservation System!!!");
+        System.out.println("---ThankYou For Using Hotel Reservation System!!!---");
     }
 }
