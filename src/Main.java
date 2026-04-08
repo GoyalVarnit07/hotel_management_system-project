@@ -225,11 +225,11 @@ public class Main {
 
     public static void exit() throws InterruptedException {
         System.out.print("Exiting System");
-        int i = 5;
-        while(i!=0){
+        int i = 0;
+        while(i<=5){
             System.out.print(".");
-            Thread.sleep(1000);
-            i--;
+            Thread.sleep(500);
+            i++;
         }
         System.out.println();
         System.out.println("---ThankYou For Using Hotel Reservation System!!!---");
